@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced selectors</title>
+    <style>
+        input[type= "number":]{
+            border: 2px solid blueviolet;
+        }
+        input[type="email"]{
+            border: 2px solid orangered;
+        }
+        .class-1 > p{
+            font-weight: 600;
+            color: blueviolet
+        }
+        
+        h1 + p{
+            color: cornflowerblue;
+        }
+
+        .class-2:hover{
+            background-color: hotpink;
+        }
+
+        <li:nth-child(2){
+            background-color: limegreen;
+        }
+
+        span:not(.class-a){
+            background-color: tomato;
+        }
+
+        .class-3::before{
+            content: "ち";
+        }
+
+        .class-3::after{
+            content: ち;
+        }
+
+        .class-4::first-letter{
+            font-size: 45px;
+        }
+    </style>
+</head>
+<body>
+    <!-- advance selector attribute selector-->
+    <input type="number" placeholder="enter a number">
+    <input type="email" placeholder="enter a Leter">
+
+    <div class="class-1">
+        <p> This is lesson 10 ち</p>
+    </div>
+
+    <h1> Heading</h1>
+    <p>Hello once again this is lesson 10 ち</p>
+
+    <ul>
+        <li>Toyota Supra MK4</li>
+        <li>Nissan GTR R34</li>
+        <li>BMW Compition M4</li>
+    </ul>
+
+    <span class="class-a">This is</span>
+    <br>
+    <span class="class-b">lesson</span>
+    <br>
+    <span class="class-c"> 10 ち</span>
+
+    <!-- psuedo elements-->
+     <p class="class-2">This is lesson 10</p>
+</body>
+</html>
