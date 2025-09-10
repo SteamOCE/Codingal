@@ -10,3 +10,7 @@ header a:hover{
 header img{
     width: 25%;
 }
+
+.card img{
+    height: 280px;
+}
