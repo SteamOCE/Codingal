@@ -1,0 +1,6 @@
+File in write mode ....Hi! I am Penguin and I am 1 yr. old
+ File in append mode ....Hi I am Penguin and I am 6 years old
+ File in append mode .... Hi my name is Obyda
+ File in append mode .... My favourite sport is Football
+ File in append mode .... I like eating Pizza!Hey everyone!
+Welcome to Codingal.
